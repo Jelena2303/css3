@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css-3</title>
+    <style>
+       #grid1{
+           display: grid;
+           grid-template-columns: repeat(auto-fill,minmax(220px,5fr));
+           gap:15px;
+       }
+       .box{background-color:rgb(93,190,235);}
+       .box p{ 
+           width:100%;
+           text-align: center;
+           padding: 5px;
+           color:white;
+       }
+       img{max-width: 100%;}
+    </style>
+</head>
+<body>
+    <h1>Gallery heading</h1>
+    <div id="grid1">
+        <div class="box"><img src="ph-img.png"alt="image"><p>image title</p></div>
+        <div class="box"><img src="ph-img.png"alt="image"><p>image title</p></div>
+        <div class="box"><img src="ph-img.png"alt="image"><p>image title</p></div>
+        <div class="box"><img src="ph-img.png"alt="image"><p>image title</p></div>
+        <div class="box"><img src="ph-img.png"alt="image"><p>image title</p></div>
+        <div class="box"><img src="ph-img.png"alt="image"><p>image title</p></div>
+        <div class="box"><img src="ph-img.png"alt="image"><p>image title</p></div>
+        <div class="box"><img src="ph-img.png"alt="image"><p>image title</p></div>
+        <div class="box"><img src="ph-img.png"alt="image"><p>image title</p></div>
+        <div class="box"><img src="ph-img.png"alt="image"><p>image title</p></div>
+    
+    </div>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, expedita! Quaerat, aperiam debitis? Reiciendis laborum distinctio nam asperiores architecto sit et veritatis quibusdam repellendus obcaecati minus voluptas dolorum, officia illo.</p>
+
+</body>
+</html>
